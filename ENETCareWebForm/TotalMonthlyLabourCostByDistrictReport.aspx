@@ -23,7 +23,7 @@
         <br />
         <br />
     
-        <asp:GridView ID="MonthlylabourCostListByDistrictGridView" runat="server" AllowPaging="True" AutoGenerateColumns="false" EnableSortingAndPagingCallbacks="false" OnPageIndexChanging="MonthlylabourCostListByDistrictGridView_PageIndexChanging" PageSize="1" >
+        <asp:GridView ID="MonthlylabourCostListByDistrictGridView" runat="server" AllowPaging="True" AutoGenerateColumns="false" EnableSortingAndPagingCallbacks="false" OnPageIndexChanging="MonthlylabourCostListByDistrictGridView_PageIndexChanging" PageSize="5" >
             <%----%> 
                     <Columns>
                         <asp:TemplateField HeaderText="Row Number" ItemStyle-Width="100">
